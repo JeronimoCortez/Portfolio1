@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Web</title>
+    <link rel="icon" href="./assets/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="hero">
         <div class="container">
@@ -23,20 +26,30 @@
                 </div>
             </section>
         </div>
-        <div class="hero__wave" style="overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #fff;"></path></svg></div>
+        <div class="hero__wave" style="overflow: hidden;"><svg viewBox="0 0 500 150" preserveAspectRatio="none"
+                style="height: 100%; width: 100%;">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff;"></path>
+            </svg></div>
     </header>
     <main>
         <section id="presentation" class="presentation container">
-            <img src="assets/jeronimo-foto.jpeg" alt="foto presentacion" class="presentation__picture">
+            <img src="./assets/fotoPropia.jpeg" alt="foto presentacion" class="presentation__picture">
             <h2 class="subtitle">Mi nombre es Jeronimo Felipe Cortez</h2>
-            <p class="presentation__copy">Acualmente estoy cursando la tecnicatura de programacion en la Universidad Tecnologica Nacional(UTN), tengo 21 años, vivo en Mendoza Argentina</p>
+            <p class="presentation__copy">Actualmente, estoy cursando el último año de la Tecnicatura en Programación en
+                la Universidad Tecnológica Nacional (UTN) y tengo 21 años. Vivo en Mendoza, Argentina. Mi trayectoria en
+                programación comenzó en 2022, cuando empecé mi primer curso de Programador Full Stack en Egg
+                Cooperation.</p>
             <a href="#footer" class="presentation__cta">Contactame ahora</a>
         </section>
         <section id="about" class="about container">
             <div class="about__texts">
-                <h2 class="subtitle">Mis habilidades</h2>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam doloremque officia, similique nihil voluptate, vel numquam inventore, libero facere autem maiores asperiores harum doloribus molestias ipsum est illum cupiditate fugit.</p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore vel et excepturi fugit expedita perspiciatis maiores sit consequuntur ad, quos cumque repellendus doloremque minus sint hic eveniet delectus praesentium.</p>
+                <h2 class="subtitle">Sobre mi</h2>
+                <p class="about__paragraph">Desde que comencé mi trayectoria, he realizado diversos cursos, destacando
+                    especialmente los de Egg Cooperation y Codo a Codo. Además, siempre estoy en constante aprendizaje
+                    autodidacta. Sin embargo, sin duda, mi formación en la tecnicatura universitaria ha potenciado
+                    significativamente mi aprendizaje. Por ello, considero que estoy plenamente capacitado para
+                    integrarme en un equipo laboral.</p>
             </div>
 
             <figure class="about__img">
@@ -44,87 +57,90 @@
             </figure>
 
             <figure class="about__img about__img--left">
-                <img src="assets/maletin.jpg" alt="foto computadora" class="about__picture">
+                <img src="assets/CV.png" alt="foto computadora" class="about__picture">
             </figure>
 
             <div class="about__texts">
-                <h2 class="subtitle">Sobre mi trabajo</h2>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore vel et excepturi fugit expedita perspiciatis maiores sit consequuntur ad, quos cumque repellendus doloremque minus sint hic eveniet delectus praesentium.</p>
-                <p class="about__paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio labore vel et excepturi fugit expedita perspiciatis maiores sit consequuntur ad, quos cumque repellendus doloremque minus sint hic eveniet delectus praesentium.</p>
+                <h2 class="subtitle">Mis habilidades</h2>
+                <ul>
+                    <li>Programación con Java Spring, JavaScript Node - Avanzado</li>
+                    <li>TypeScript - Intermedio</li>
+                    <li>Programación con Python, React - Básico</li>
+                    <li>Bases de datos SQL - Intermedio</li>
+                    <li>Desarrollo web con HTML y CSS - Avanzado</li>
+                    <li>Inglés A1 - En proceso y extensión</li>
+                    <li>Control de versiones con Git y GitHub - Intermedio</li>
+                    <li><a href="./assets/CVJeronimoCortezProgramador.pdf">Descargar CV</a></li>
+                </ul>
+
             </div>
         </section>
 
         <section id="projects" class="projects">
             <div class="container">
-                <h2 class="subtitle"></h2>
                 <div class="projects__grid">
                     <article class="projects__item">
-                        <img src="assets/img1.png" alt="Imagen proyecto 1" class="projects__img">
+                        <img src="assets/certificadoEgg.png" alt="ICertfificado egg cooperation" class="projects__img">
+                        <a href="./assets/certificadoEggJeronimoCortez.pdf" download="">
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Certificado egg cooperation</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="assets/certificadoCodoACodo.png" alt="Certificado codo a codo" class="projects__img">
+                        <a href="assets/certificadoCodoACodo.png" download>
+                            <div class="projects__hover">
+                                <h2 class="projects__title">Certificado codo a codo</h2>
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </a>
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="assets/LoremIpsumBurgers.png" alt="Proyecto lorem ipsum burgers"
+                            class="projects__img">
+
                         <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
+                            <h2 class="projects__title">Lorem ipsum burger</h2>
+                            <a class="projects__link" href="https://jeronimocortez.github.io/Lorem-ipsum-burger/"
+                                target="_blank">Ver en la web</a>
+                            <a class="projects__link" href="https://github.com/JeronimoCortez/Lorem-ipsum-burger.git"
+                                target="_blank">Link
+                                a
+                                git</a>
+                            <i class="far fa-file-alt projects__icon"></i>
+                        </div>
+
+                    </article>
+
+                    <article class="projects__item">
+                        <img src="assets/gestionHamburgueseria.png" alt="Imagen Proyecto 4" class="projects__img">
+                        <div class="projects__hover">
+                            <h2 class="projects__title">Gestion de productos hamburgueseria</h2>
+                            <a class="projects__link" href="https://jeronimocortez.github.io/GestionDeHamburgueseria/"
+                                target="_blank">Ver en la web</a>
+                            <a class="projects__link"
+                                href="https://github.com/JeronimoCortez/GestionDeHamburgueseria.git"
+                                target="_blank">Link a git</a>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
                     </article>
 
                     <article class="projects__item">
-                        <img src="assets/img2.png" alt="Imagen proyecto 2" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
-                    </article>
+                        <img src="assets/ElBuenSabor.png" alt="Imagen Proyecto El buen sabor" class=" projects__img">
 
-                    <article class="projects__item">
-                        <img src="assets/img3.png" alt="Imagen proyecto 3" class="projects__img">
                         <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
+                            <h2 class="projects__title">El buen sabor backend</h2>
+                            <a class="projects__link" href="https://github.com/JeronimoCortez/ElBuenSaborBackEnd.git"
+                                target="_blank">Link a git</a>
                             <i class="far fa-file-alt projects__icon"></i>
                         </div>
-                    </article>
 
-                    <article class="projects__item">
-                        <img src="assets/img4.png" alt="Imagen Proyecto 4" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
-                    </article>
-
-                    <article class="projects__item">
-                        <img src="assets/img5.jpg" alt="Imagen Proyecto 5" class="projects__img">
-                        <div class="projects__hover">
-                            <h2 class="projects__title">Proyecto</h2>
-                            <i class="far fa-file-alt projects__icon"></i>
-                        </div>
                     </article>
                 </div>
-            </div>
-        </section>
-
-        <section class="testimony container">
-            <h2 class="subtitle">¿Que dicen de nosotros?</h2>
-            <div class="testimony__grid">
-                <article class="testimony__item">
-                    <div class="testimony__person">
-                        <img src="assets/man.png" alt="foto de perfil testimonio" class="testimony__img">
-                        <div class="testimony__text">
-                            <h3 class="testimony__name">Jeronimo Cortez</h3>
-                            <p class="testimony__verification">Creador de Apple</p>
-                        </div>
-                    </div>
-                    <p class="testimony_review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse odio nulla, maxime assumenda fuga saepe beatae reiciendis enim amet reprehenderit!</p>
-                </article>
-
-                <article class="testimony__item">
-                    <div class="testimony__person">
-                        <img src="assets/man.png" alt="foto de perfil testimonio" class="testimony__img">
-                        <div class="testimony__text">
-                            <h3 class="testimony__name">Jeronimo Cortez</h3>
-                            <p class="testimony__verification">Creador de Apple</p>
-                        </div>
-                    </div>
-                    <p class="testimony_review">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse odio nulla, maxime assumenda fuga saepe beatae reiciendis enim amet reprehenderit!</p>
-                </article>
             </div>
         </section>
     </main>
@@ -136,17 +152,20 @@
                 <a class="nav__items nav__items--footer" href="#about">Mis skills</a>
                 <a class="nav__items nav__items--footer" href="#projects">Proyectos</a>
             </nav>
-            <section class="footer__contact"> 
+            <section class="footer__contact">
                 <h3 class="footer__title">Contactame</h3>
                 <div class="footer__icons">
                     <span class="footer__container-icons">
-                        <a class="fa-brands fa-whatsapp footer__icon" href="https://wa.me/+5492613830592" target="_blank"></a>
+                        <a class="fa-brands fa-whatsapp footer__icon" href="https://wa.me/+5492613830592"
+                            target="_blank"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a class="fa-brands fa-instagram footer__icon" href="https://www.instagram.com/jeroocortez/" target="_blank"></a>
+                        <a class="fa-brands fa-instagram footer__icon" href="https://www.instagram.com/jeroocortez/"
+                            target="_blank"></a>
                     </span>
                     <span class="footer__container-icons">
-                        <a class="fa-brands fa-x-twitter footer__icon" href="https://twitter.com/Jeroocortez" target="_blank"></a>
+                        <a class="fa-brands fa-linkedin-in footer__icon"
+                            href="https://www.linkedin.com/in/jeronimo-cortez-bab3a8264/" target="_blank"></a>
                     </span>
                 </div>
             </section>
@@ -154,4 +173,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/81877e47c2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
